@@ -7,7 +7,7 @@ from opcua import Client
 
 
 def main():
-    client = Client("opc.tcp://localhost:4840/freeopcua/server/")
+    client = Client("opc.tcp://localhost:4840/server/")
     # client = Client("opc.tcp://admin@localhost:4840/freeopcua/server/") #connect using a user
     try:
         client.connect()
